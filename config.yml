@@ -1,0 +1,13 @@
+# --- PlatePioneer Configuration File ---
+
+# 1. Define the input and output file paths
+file_paths:
+  input_file: "data/test_plate.xlsx"
+  output_file: "data/output_from_config.csv"
+
+# 2. Define the sheet names in the input file
+sheet_names:
+  metadata: "experiment_meta"
+  results: "results"
+  antibodies: "ta_map"
+  concentrations: "concentration_map"
